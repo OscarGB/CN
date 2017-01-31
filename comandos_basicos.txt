@@ -1,0 +1,26 @@
+floor()->suelo
+ceil()->techo
+format long->formato largo
+format long e->formato notacion cientifica
+sqrt()->raiz cuadrada
+abs()->valor absoluto
+imag()->parte imaginaria de un complejo
+real()->parte real de un complejo
+angle()->angulo de un complejo
+factorial()->factorial
+Si acabo un comando en ; no mostrará nada por pantalla
+clc->clear command window
+clear all->limpia variables
+clear variable->limpia una variable concreta
+exp(x)->e^x
+y = [a b c]->vector fila
+y = [a; b; c]->vector columna
+y = [a b c; d e f]->matriz
+1:5->vector (1,2,3,4,5)
+1:2:7->vector que va de 1 a 7 cada 2->(1,3,5,7)
+v(2)->elemento 2 del vector v
+v(1,:)->primera fila de la matriz v
+M = magic(5)->matriz de cuadrdos mágicos
+M(2:3, 4:5)->submatriz de M
+v'->tranforma un vector linea en uno columna (traspuesta)
+v.*w->multiplicacion componente por componente de un vector

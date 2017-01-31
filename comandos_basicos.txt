@@ -28,3 +28,4 @@ norm()->norma euclidea de un vector
 length()->longitud de un vector
 size()->filas, columnas de un vector
 v'*w->producto tensorial
+sum(A, x)->suma de los elementos de una matriz A en direccion x (1 vertical, 2 horizontal)

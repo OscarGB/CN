@@ -1,0 +1,17 @@
+%CAMBIO DE BASE
+
+function a = posicional(x,b) %posicional es el nombre de la funcion, (x,b) indica los valores del input, a es el output
+
+j = 1;
+
+a(j) = mod(x,b); %esto implica que a tiene que ser un vector, ya que a(j) va a ser la posicion j de un vector (matlab lo entiende solo)
+
+r = floor(x/b)
+
+while r > 0
+   
+    
+    
+end
+
+end %fin de la funcion

@@ -1,0 +1,92 @@
+USO
+clear, clc  /*Limpian terminal*/
+Si no pones ; despues de un comando, lo imprime por pantalla
+
+
+COMANDOS
+z = 4 + 3i /*Declara variable en formato imaginario*/
+conj(z) /*Conjugado*/
+angle(z) /*Angulo del imaginario*/
+abs(z) /*Módulo del imag*/
+imag(z) /*Parte imaginaria*/
+real(z) /*Parte real*/
+a = 2.499
+floor(a)
+ceil(a)
+round(a)
+mod(x,b) /*x % b*/
+
+MATRICES
+a = [1 2 3; 4 5 6] /*Matriz 3x2*/
+
+VECTORES
+v = 1:5 /*v es el vector que va de 1 a 5, es decir v = [1 2 3 4 5]*/
+sea x = [1 2 3; 4 5 6]
+x(:,2) /*Te saca los elementos de la segunda columna, es decir, de la segunda dimensión*/
+x(2:4) /*Coge los elementos del 2 al 4 de la matriz (se cuentan de arriba abajo, y al terminar
+	una columna, avanza en una fila*/
+
+IMPORTANTE: los vectores en Matlab no empiezan en 0, sino en 1
+
+TRASPUESTA
+w' sería la traspuesta de w
+
+FLIP DE UN VECTOR
+fliplr(v) /*Le da la vuelta al vector*/
+
+SUMA DE VECTORES
+Declarados dos vectores:
+	v = 1:4
+	w = 3:6
+	v + w = [4 6 8 10]
+
+PRODUCTO DE VECTORES(escalar)
+Declarados dos vectores:
+	v = 1:3
+	w = 2:4
+	Tienes que multiplicar por w traspuesta:
+	v * w' = ...
+
+PRODUCTO DE MATRICES
+Declaradas dos matrices:
+	m1 * m2 es el producto normal de matrices	
+
+PRODUCTO COMPONENTE A COMPONENTE
+Sean dos matrices m1 y m2:
+	m1.*m2 va a ser el producto componente a componente
+
+PRODUCTO TENSORIAL
+Dos vectores:
+	v = [1 2 3]
+	w = [4 5 6]
+	v' * w = [1*4 1*5 1*6; 2*4 2*5 2*6; 3*4 3*5 3*6]
+
+SIZE
+Sea v = [1 2 3]
+	size(v) = 1 3 /*El vector v tendrá 1 fila, 3 columnas*/
+Sea w = [1; 2; 3] 
+	size(w) = 3 1 /*El vector w tendrá 3 filas, 1 columna*/
+
+SUMA DE LOS ELEMENTOS DE UNA MATRIZA
+	Función sum(x, y) donde x es una matriz, e y es una dirección (1, vertical; 2, horizontal)
+	M = [1:3; 4:6]
+	sum(M, 1) = [5 7 9]
+	sum(M, 2) = [6; 15]
+
+MAXIMO DE UN VECTOR
+	Sea v = [a b c]
+	max(v) = maximo componente del vector
+	max(v) puede devolver dos valores [x, n], donde x es el máximo valor, y n su posición
+
+MAXIMO DE MATRICES
+	Sea A una matriz
+	max(A) devuelve el vector más grande
+	Si queremos el máximo de una matriz, debemos hacer max(max(A))
+
+OPERACIONES LOGICAS
+
+<, >, <=, >=, ==, &, |
+	Sea v = 1:3
+	Ahora hacemos u = v >= 2 ---> u = [0 1 1] /*En u guardamos 1 si el elemento de v es >= 2, 								0 si no lo es*/
+
+

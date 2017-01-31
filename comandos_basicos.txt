@@ -24,3 +24,7 @@ M = magic(5)->matriz de cuadrdos mágicos
 M(2:3, 4:5)->submatriz de M
 v'->tranforma un vector linea en uno columna (traspuesta)
 v.*w->multiplicacion componente por componente de un vector
+norm()->norma euclidea de un vector
+length()->longitud de un vector
+size()->filas, columnas de un vector
+v'*w->producto tensorial

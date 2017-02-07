@@ -33,4 +33,11 @@ sum(A, x)->suma de los elementos de una matriz A en direccion x (1 vertical, 2 h
 max(max())-> maximo de una matriz
 operaciones logicas: >=, >, <=, <, ==, |, &
 fliplr()->invierte un vector
-	
+f = @(x) log(x) -> funcion, el @ es un alias que busca las incognitas
+Usamos v. para operar punto por punto de un vector
+plot(v,w, <'.'>) -> plotea los vectores v y w matcheando los puntos uno a uno, el '.' deja solo los puntos y no los une con rectas
+fplot(funcion, [intervalo]) -> plot de una funcion en alias
+hold on -> permite superponer graficas
+figure -> crea una nueva figura
+figure(n) -> selecciona la figura n
+

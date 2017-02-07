@@ -89,4 +89,32 @@ OPERACIONES LOGICAS
 	Sea v = 1:3
 	Ahora hacemos u = v >= 2 ---> u = [0 1 1] /*En u guardamos 1 si el elemento de v es >= 2, 								0 si no lo es*/
 
+DECLARACION DE FUNCIONES MATEMATICAS
+f = @(x) x^2 + x + 1 /*Al hacer @(x), matlab va a esperar una variable respecto
+    	       	     a la cual va a operar en la función*/
+		     Se  pueden utilizar varias variables
+
+También se puede trabajar con vectores:
+v = [-1 0 1]
+g = @(x) x.^2 + 2*x + 1 /*De este modo podemos evaluar g(x) en los puntos
+    	      	      	-1, 0 y 1. Para ello empleamos el operador . después
+			de la x (x.) para que las operaciones se efectúen punto
+			por punto*/
+
+Ahora podríamos correr g(v) para evaluar g en los puntos -1 0 1
+
+
+
+PLOT
+
+Teniendo dos vectores v, w: usamos la función plot
+
+plot(v,w) /*Nos va a generar una gráfica que une tres puntos: (v1,w1) (v2,w2) (v3,w3)*/
+plot(v,w,'.') /*Nos genera una gráfica en la que se muestran únicamente los puntos*/
+
+Si declaramos una distancia d y un vector u = -1:d:1 nos genera n puntos, separados por una distancia d. De este modo, la gráfica tendrá más puntos y, por lo tanto, se aproximará más a la realidad.
+
+
+FPLOT
+fplot(f, intervalo) /*fplot dibuja una función f entre los puntos del intervalo, tomando muchos 		puntos entre los extremos del intervalo*/
 

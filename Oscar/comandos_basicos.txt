@@ -40,4 +40,4 @@ fplot(funcion, [intervalo]) -> plot de una funcion en alias
 hold on -> permite superponer graficas
 figure -> crea una nueva figura
 figure(n) -> selecciona la figura n
-
+nargin -> numero de argumentos de entrada

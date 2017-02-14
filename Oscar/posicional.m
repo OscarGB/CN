@@ -1,6 +1,6 @@
 % funcion cambio de base
 
-function [a,y] = posicional(x,b) % a es el return, x y b es el input
+function [a,y] = posicional(x,b) % a y y es el return, x y b es el input
     
     j = 1; % En matlab los vectores empiezan en 1
     

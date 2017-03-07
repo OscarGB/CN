@@ -31,5 +31,8 @@ for k = 2 : n
    end
    x(i) = (z(i) - suma)/U(i,i);
 end 
+
+E = max(abs(A*x-b))
+
 return
 end

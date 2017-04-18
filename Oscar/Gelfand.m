@@ -1,3 +1,5 @@
+%% Función de Gelfand
+
 function actual = Gelfand(A)
     [n,m] = size(A);
     

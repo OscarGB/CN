@@ -1,3 +1,4 @@
+%% función que devuelve los polinomios caracteristicos de Lagrange
 function L = caracteristicos(x, xi)
     n = length(xi);
     if(n < 1)

@@ -41,3 +41,6 @@ hold on -> permite superponer graficas
 figure -> crea una nueva figura
 figure(n) -> selecciona la figura n
 nargin -> numero de argumentos de entrada
+diag(<Matriz>) -> devuelve la diagonal de una matriz en formato de vector
+diag(<Vector>) -> devuelve una matriz cuya diagolan es el vector
+diag(diag(<Matriz>)) -> devuelve la diagonal de la matriz

@@ -1,10 +1,14 @@
-function prod = productos(x0, y)
-  [n, tam] = size(y);
+function prod = productos(x0, x)
+  [n, tam] = size(x);
   
-  prod(1) = 1;
+  prod = zeros(tam, 1);
+  a = 1;
+    
+  prod(1) = a;
   
-  for i =2:tam
-    prod(i) = x0 - y(i-1);
+  for i=2:tam
+    a = a * (x0 - x(i-1));
+    prod(i) = a;
   end
   
 end

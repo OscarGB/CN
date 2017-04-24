@@ -1,11 +1,11 @@
 clear all;
 clc;
 
-N = 20;
+N = 10;
 
-f = @(x) x.*sin(x);
+f = @(x) x.^2;
 
-a = -1;
-b = 1;
+a = 0;
+b = 10;
 
 pruebaNewton(f,a,b,N);
